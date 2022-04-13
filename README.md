@@ -24,7 +24,7 @@ The goal of this project is to explore the ethernet protocol and understand its 
 
 Choose the correct pin and port mappings between each of your peripherals and the Atmega. Click the following links for respective peripheral mapping locations in the codebase:
 
-LCD ->[HD44780](https://github.com/efthymios-ks/AVR-HD44780)
+LCD ->[HD44780](https://github.com/brenmor24/ethernet-public/blob/main/lib/lcd/HD44780_Settings.h#L35-L43)
 ETHERNET -> [ENC28J60](https://github.com/brenmor24/ethernet-public/blob/main/lib/lcd/HD44780_Settings.h#L36-L43)
 
 If you'd like to change your systems IP and MAC addresses, this can be done [here](https://github.com/brenmor24/ethernet-public/blob/main/src/client.c#L17-L18). You also need to specify the IP address of your server by changing the serverIp [here](https://github.com/brenmor24/ethernet-public/blob/main/src/client.c#L41) and the port number [here](https://github.com/brenmor24/ethernet-public/blob/main/src/client.c#L41) as the second argument to TcpConnect.
